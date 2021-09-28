@@ -21,6 +21,17 @@ GooglePlatFormから Cloud Vision APIを用いて物体検出を行い，
 分散表現は過去に詠まれた俳句とWikipediaの日本語テキストを用いて作成した二つが存在し，
 それぞれ季語とそれ以外の単語の近似度計算に使い分けています．
 これらのテキストは学習時点でDB内の単語をneologd辞書に追加した辞書で形態素解析を行い，品詞を絞って作成しました．
+学習に用いた
+
+「wikipedia日本語全文データ」
+https://dumps.wikimedia.org/jawiki/latest/
+
+「現代俳句抄」  
+http://www.haiku-tosasaki.server-shared.com/  
+「きごさい歳時記」「きごさいBASE」
+https://kigosai.sub.jp/  
+「俳誌のサロン」  
+http://www.haisi.com/
 
 # requirement
 
