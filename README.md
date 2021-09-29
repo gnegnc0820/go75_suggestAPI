@@ -2,7 +2,7 @@
 俳句支援アプリ 57GO の単語提案APIです．
 単語の分散表現と季語，その他の単語のDBを用いて単語を提案します．
 
-# descroption
+# description
 base64でエンコードされた画像データから語句を提案します．
 
 GooglePlatFormから Cloud Vision APIを用いて物体検出を行い，
